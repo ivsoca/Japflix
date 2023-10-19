@@ -1,0 +1,44 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.moviesContainer{
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 10px;
+    border: 1px solid rgb(29, 29, 29);
+    /* cursor: pointer; */
+}
+
+#results{
+    padding: 50px;
+}
+
+.offcanvas-body{
+    color: black;
+}
